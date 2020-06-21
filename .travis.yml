@@ -54,5 +54,5 @@ notifications:
 deploy:
   provider: heroku
   api_key:
-    secure: '2ca9f5dc-b571-48a2-8c07-3ef5f1a3553c'
+    secure: '6d7296c3-dbfe-4dca-9f51-7aa648c94653'
   app: deployfromtravis
