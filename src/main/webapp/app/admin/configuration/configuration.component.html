@@ -26,7 +26,8 @@
     </table>
     <div *ngFor="let propertySource of propertySources; let i = index">
         <h4 [id]="'property-source-' + i"><span>{{ propertySource.name }}</span></h4>
-        <table class="table table-sm table-striped table-bordered table-responsive d-table" [attr.aria-describedby]="'property-source-' + i" summary="Config table">
+        <p id="mydesc">configuration</p>
+        <table class="table table-sm table-striped table-bordered table-responsive d-table"  aria-describedby="mydesc" [attr.aria-describedby]="'property-source-' + i">
             <thead>
             <tr>
                 <th scope="col" class="w-40">Property</th>
