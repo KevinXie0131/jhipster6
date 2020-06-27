@@ -1,3 +1,4 @@
+## Simple project of Jhipster 6
 ## Development
 
     npm install
